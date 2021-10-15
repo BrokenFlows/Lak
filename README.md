@@ -5,4 +5,4 @@ Lak's a hand-wired keyboard project powered by a [nice!nano](https://nicekeyboar
 
 The shield config, keymap, and a prebuilt uf2 can be found [here](https://github.com/BrokenFlows/zmk-brokenflows).
 
-![Lak Photo](images/lak.png)
+![Lak Photo](images/lak.jpeg)
