@@ -40,6 +40,7 @@ Item # | Quantity | Part Name                                                 | 
 The above BoM lists uniform profile keycaps and links to relegendable keycaps. I used a mixture of both of the following in my build:
 - [Relgendable MX-Style Keycaps](https://www.adafruit.com/product/5039)
 - [DSA Blank Keycaps](https://kbdfans.com/collections/dsa-profile/products/dsa-blank-keycaps-1u-10pcs)
+
 If mixing and matching, or just getting one set, be sure to have 40 keycaps available for your build.
 
 #### 3D Printing
