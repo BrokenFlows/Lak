@@ -51,6 +51,6 @@ Filament        | PLA
 Nozzle Diameter | < 0.4 mm
 Layer Height    | < 0.2 mm
 Infill          | 20% <
-Supports        | Off
+Supports        | On
 
 
