@@ -64,13 +64,15 @@ This guide will go into light detail about the specifics of hand-wiring this key
 This should be sufficient if you're familiar with the process of hand-wiring a keyboard.
 
 The following guides will provide greater detail about the process of hand-wiring, though not the specifics of this board.
-These may be helpful if it is your first time hand-wiring a keyboard.
+These may be helpful if it is your first time hand-wiring a keyboard:
 
 - [QMK Firmware's _Hand-Wiring Guide_](https://github.com/qmk/qmk_firmware/blob/master/docs/hand_wire.md#wiring-the-matrix)
 - [RoastPotatoes' _How to hand wire a Plank_](https://blog.roastpotatoes.co/guide/2015/11/04/how-to-handwire-a-planck/#switches)
 - [Matt3o.com's _Hand-wiring a custom keyboard_](https://matt3o.com/hand-wiring-a-custom-keyboard/)
 
-Bend the legs of a diode so that it can hook onto a switch pin and the leg can continue along the row of keys, as seen in the following picture.
+To start, bend the legs of a diode so that it can hook onto a switch pin and the leg can continue along the row of keys, as seen in the following picture.
+Take care to orientate the cathode of the diode (the side marked with a black strip) away from the switch and towards the other diodes.
+This is a `col2row` diode direction in the ZMK firmware.
 
 ![Picture showing a diode hooked onto a switch pin with one leg while the other leg carries on towards the next switch](./images/lak_hand_wiring1.jpeg)
 
