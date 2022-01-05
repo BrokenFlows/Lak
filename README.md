@@ -73,6 +73,22 @@ Once both switches are soldered to the switch pins, solder the diode legs togeth
 Carry on, repeating this process until there is one diode connected to each switch and all diodes in a row are connected also.
 
 ![Picture showing 40 diodes connected to switches in rows of 10](./images/lak_hand_wiring3.jpeg)
- 
 
+![Photo showing 40 diodes connected to switches in rows of 10](./images/lak_matrix_rows_.jpeg)
+ 
+This completes the rows of the matrix. 
+
+Next we connect the columns of the matrix with lengths of wire.
+This can be done with three wires per column, one between each pair of switch pins, or with one long wire stripped where it passes the switch pins.
+
+![Picture showing a wire connecting switches in one column together by the remaining pins on the switches](./images/lak_hand_wiring4.jpeg)
+
+Solder the wire in place where it passes each pin.
+Whether using three wires or one length with stripped sections, there should be four solder joint per column.
+
+![Picture showing wires connecting switches in each column together by the remaining pins on the switches](./images/lak_hand_wiring5.jpeg)
+
+![Photo showing wires connecting switches in each column together by the remaining pins on the switches](./images/lak_matrix_rows_cols.jpeg)
+
+This completes the columns, and therefore the entire, switch matrix.
 
