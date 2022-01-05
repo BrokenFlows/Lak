@@ -95,12 +95,17 @@ This can be done with three wires per column, one between each pair of switch pi
 
 ![Picture showing a wire connecting switches in one column together by the remaining pins on the switches](./images/lak_hand_wiring4.jpeg)
 
+It is important that no bare wire touch any metal in the rows.
+This is the benefit of using insulate wire.
+If using uninsulated wire, using electrical tape or similar to mask where wires would meet.
+
 Solder the wire in place where it passes each pin.
 Whether using three wires or one length with stripped sections, there should be four solder joint per column.
 
 ![Picture showing wires connecting switches in each column together by the remaining pins on the switches](./images/lak_hand_wiring5.jpeg)
 
 ![Photo showing wires connecting switches in each column together by the remaining pins on the switches](./images/lak_matrix_rows_cols.jpeg)
+
 
 This completes the columns of the matrix, and therefore the entire switch matrix.
 
