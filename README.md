@@ -70,6 +70,8 @@ These may be helpful if it is your first time hand-wiring a keyboard:
 - [RoastPotatoes' _How to hand wire a Plank_](https://blog.roastpotatoes.co/guide/2015/11/04/how-to-handwire-a-planck/#switches)
 - [Matt3o.com's _Hand-wiring a custom keyboard_](https://matt3o.com/hand-wiring-a-custom-keyboard/)
 
+---
+
 To start, bend the legs of a diode so that it can hook onto a switch pin and the leg can continue along the row of keys, as seen in the following picture.
 Take care to orientate the cathode of the diode (the side marked with a black strip) away from the switch and towards the other diodes.
 This is a `col2row` diode direction in the ZMK firmware.
@@ -90,6 +92,8 @@ Carry on, repeating this process until there is one diode connected to each swit
  
 This completes the rows of the matrix. 
 
+---
+
 Next we connect the columns of the matrix with lengths of wire.
 This can be done with three wires per column, one between each pair of switch pins, or with one long wire stripped where it passes the switch pins.
 
@@ -109,3 +113,8 @@ Whether using three wires or one length with stripped sections, there should be 
 
 This completes the columns of the matrix, and therefore the entire switch matrix.
 
+---
+
+To finish the wiring, we must connect the correct pins on the nice!nano to points on this matrix.
+
+*TODO*
