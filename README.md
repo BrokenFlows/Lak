@@ -35,7 +35,7 @@ Item # | Quantity | Part Name                                                 | 
 4      | 40       | [MX-Style Switches](https://kbdfans.com/collections/gateron-swithes/products/gateron-swtich-3pin-or-5pin?variant=35765200333) | MX-style key switches will serve as the button mechanism
 5      | 40       | [MX-Style Keycaps](https://www.adafruit.com/product/5039) | MX-style keycaps, a uniform profile will work best
 6      | 40       | [Diodes](https://www.adafruit.com/product/1641)           | Diodes for creating the key matrix
-7      | 24       | [Wires](https://www.ebay.ie/itm/232901601951)             | Lengths of wire to create the key matrix
+7      | 24       | [Wires](https://www.ebay.ie/itm/232901601951)             | Lengths of insulated solid-core wire to create the key matrix
 8      | 1        | [nice!nano](https://nicekeyboards.com/nice-nano)          | The nice!nano microcontroller will 
 
 The above BoM lists uniform profile keycaps and links to relegendable keycaps. I used a mixture of both of the following in my build:
@@ -60,6 +60,16 @@ Supports        | On
 3. Place the nice!nano in its sled housing.
 
 #### Wiring
+This guide will go into light detail about the specifics of hand-wiring this keyboard.
+This should be sufficient if you're familiar with the process of hand-wiring a keyboard.
+
+The following guides will provide greater detail about the process of hand-wiring, though not the specifics of this board.
+These may be helpful if it is your first time hand-wiring a keyboard.
+
+- [QMK Firmware's _Hand-Wiring Guide_](https://github.com/qmk/qmk_firmware/blob/master/docs/hand_wire.md#wiring-the-matrix)
+- [RoastPotatoes' _How to hand wire a Plank_](https://blog.roastpotatoes.co/guide/2015/11/04/how-to-handwire-a-planck/#switches)
+- [Matt3o.com's _Hand-wiring a custom keyboard_](https://matt3o.com/hand-wiring-a-custom-keyboard/)
+
 Bend the legs of a diode so that it can hook onto a switch pin and the leg can continue along the row of keys, as seen in the following picture.
 
 ![Picture showing a diode hooked onto a switch pin with one leg while the other leg carries on towards the next switch](./images/lak_hand_wiring1.jpeg)
