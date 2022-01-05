@@ -96,7 +96,7 @@ This can be done with three wires per column, one between each pair of switch pi
 ![Picture showing a wire connecting switches in one column together by the remaining pins on the switches](./images/lak_hand_wiring4.jpeg)
 
 It is important that no bare wire touch any metal in the rows.
-This is the benefit of using insulate wire.
+This is the benefit of using insulated wire.
 If using uninsulated wire, using electrical tape or similar to mask where wires would meet.
 
 Solder the wire in place where it passes each pin.
