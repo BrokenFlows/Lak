@@ -15,7 +15,7 @@ The project requires some readily available keyboard components, some custom 3D 
 
 ### Hardware
 
-The [tools](#Tools) and [materials](#Bill-of-Materials) will be used to assemble the final product, shown above. Once you have acquired the items required, you can follow the steps outlined in the [assembly](#Pre-assembly) section.
+The [tools](#Tools) and [materials](#Bill-of-Materials) will be used to assemble the final product, shown above. Once you have acquired the items required, you can follow the steps outlined in the [assembly](#Pre-Wiring) section.
 
 #### Tools
 - Soldering Iron
@@ -35,7 +35,8 @@ Item # | Quantity | Part Name                                                 | 
 4      | 40       | [MX-Style Switches](https://kbdfans.com/collections/gateron-swithes/products/gateron-swtich-3pin-or-5pin?variant=35765200333) | MX-style key switches will serve as the button mechanism
 5      | 40       | [MX-Style Keycaps](https://www.adafruit.com/product/5039) | MX-style keycaps, a uniform profile will work best
 6      | 40       | [Diodes](https://www.adafruit.com/product/1641)           | Diodes for creating the key matrix
-7      | 6        | [Wires](https://www.ebay.ie/itm/232901601951)             | Lengths of wire to create the key matrix
+7      | 24       | [Wires](https://www.ebay.ie/itm/232901601951)             | Lengths of wire to create the key matrix
+8      | 1        | [nice!nano](https://nicekeyboards.com/nice-nano)          | The nice!nano microcontroller will 
 
 The above BoM lists uniform profile keycaps and links to relegendable keycaps. I used a mixture of both of the following in my build:
 - [Relgendable MX-Style Keycaps](https://www.adafruit.com/product/5039)
@@ -52,5 +53,26 @@ Nozzle Diameter | < 0.4 mm
 Layer Height    | < 0.2 mm
 Infill          | 20% <
 Supports        | On
+
+#### Pre-Wiring
+1. Insert the 40 switches into the case — the top of the switches should be on the shorter side relative to the plate.
+2. At this point the keycaps can be placed on top of the switches. If using relegendable keycaps, insert the paper legends before placing the keycaps.
+3. Place the nice!nano in its sled housing.
+
+#### Wiring
+Bend the legs of a diode so that it can hook onto a switch pin and the leg can continue along the row of keys, as seen in the following picture.
+
+![Picture showing a diode hooked onto a switch pin with one leg while the other leg carries on towards the next switch](./images/lak_hand_wiring1.jpeg)
+
+At this point solder the diode to the switch pin. Then prepare another diode the same way at the next switch over.
+
+![Picture showing two diodes hooked onto switch pins with one leg while the other leg carries on towards the next switches](./images/lak_hand_wiring2.jpeg)
+
+Once both switches are soldered to the switch pins, solder the diode legs together along the row where the legs meet.
+
+Carry on, repeating this process until there is one diode connected to each switch and all diodes in a row are connected also.
+
+![Picture showing 40 diodes connected to switches in rows of 10](./images/lak_hand_wiring3.jpeg)
+ 
 
 
