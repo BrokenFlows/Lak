@@ -90,5 +90,5 @@ Whether using three wires or one length with stripped sections, there should be 
 
 ![Photo showing wires connecting switches in each column together by the remaining pins on the switches](./images/lak_matrix_rows_cols.jpeg)
 
-This completes the columns, and therefore the entire, switch matrix.
+This completes the columns of the matrix, and therefore the entire switch matrix.
 
