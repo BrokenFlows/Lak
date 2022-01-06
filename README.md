@@ -119,7 +119,7 @@ To finish the wiring, we must connect the correct pins on the nice!nano to point
 The following image shows a labelled diagram of a nice!nano and its pins.
 A later diagram will show which part of the matrix connect to which pin of the nice!nano.
 
-![Labelled pinout diagram for the nice!nano](./images/nice!nano pinout.jpeg)
+![Labelled pinout diagram for the nice!nano](./images/nice!nano_pinout.jpeg)
 
 ![Labelled diagram showing which wires connect to which pins of the nice!nano](./images/lak_hand_wiring.jpeg)
 
