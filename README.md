@@ -11,7 +11,11 @@ The shield config, keymap, and a prebuilt uf2 can be found [here](https://github
 ## Instructions
 
 The following instructions will provide details on how to assemble the project as well as covering the materials required.
-The project requires some readily available keyboard components, some custom 3D printed components, and a nice!nano microcontroller which (at the time of writing) is available at somewhat frequent but irregular intervals.
+
+The [BoM](#Bill-of-Materials) outlines this further, but by way of materials, the project requires some readily available keyboard components, some custom 3D printed components, and a nice!nano microcontroller which (at the time of writing) is available at somewhat frequent but irregular intervals.
+
+The [assembly](#Pre-Wiring) of the project will require some soldering which won't be difficult but may be time-consuming.
+If you're new to soldering, I recommend checking out [this YouTube playlist of soldering how-to videos](https://youtube.com/playlist?list=PLYbmtQOxpiujxQlyrUXsafJzl7sxFdSJW).
 
 ### Hardware
 
@@ -23,6 +27,7 @@ The [tools](#Tools) and [materials](#Bill-of-Materials) will be used to assemble
 - 3D Printer/ 3D Printing Service/ or some means of mimicking [the case and parts](./stls/) listed below
 - Scissors/ wire cutter
 - Glue/ Hot Glue Gun
+- Electrical Tape
 - **Optional:** wire stripper
 
 
@@ -37,6 +42,7 @@ Item # | Quantity | Part Name                                                 | 
 6      | 40       | [Diodes](https://www.adafruit.com/product/1641)           | Diodes for creating the key matrix
 7      | 24       | [Wires](https://www.ebay.ie/itm/232901601951)             | Lengths of insulated solid-core wire to create the key matrix
 8      | 1        | [nice!nano](https://nicekeyboards.com/nice-nano)          | The nice!nano microcontroller will 
+9      | 1        | [301230 Lithium Polymer Battery](https://www.aliexpress.com/item/33001770863.html) | Optional: LiPo battery to enable wireless usage
 
 The above BoM lists uniform profile keycaps and links to relegendable keycaps. I used a mixture of both of the following in my build:
 - [Relgendable MX-Style Keycaps](https://www.adafruit.com/product/5039)
@@ -127,4 +133,24 @@ It is important to note the frames of reference for each diagram:
 Using more wire, solder connections between the pins of the nice!nano and the matching labels of the keyboard matrix.
 Any point along the columns will make a valid connection.
 Any point "below" the black line of the diode will make a valid connection for the rows.
+
+Once all other wiring is done, the optional battery can be soldered to the nice!nano's B+/- pins.
+The black wire on the battery connects to the B- pin, the red wire to the B+ pin.
+
+#### Fit and Finish
+With all wiring done, we can close up the case.
+
+First, you may want to apply some electrical tape above where the sled will sit, as to avoid any short-circuits once the case is sealed.
+Then, put the nice!nano in the sled, flat side to the bottom of the sled, and test how the sled sits in the cut-out of the case.
+Once you're sure it it fits properly, glue the sled in place in this cut-out.
+
+If you are using a battery, you may want to find some space to secure that within the case.
+
+Then, test the fit of the bottom plate of the case.
+Again, once you're happy with the fit, glue it in place.
+
+Finally, customise the keycaps to your liking and you're done with the physical aspect of this project. 
+
+#### Firmware
+*TODO*
 
