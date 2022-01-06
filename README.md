@@ -119,7 +119,15 @@ To finish the wiring, we must connect the correct pins on the nice!nano to point
 The following image shows a labelled diagram of a nice!nano and its pins.
 A later diagram will show which part of the matrix connect to which pin of the nice!nano.
 
+It is important to note the frames of reference for each diagram:
+- The diagram of the nice!nano shows the top, bumpier, side. If flipping the nice!nano, you will need to pay attention to wire the correct pins.
+- The diagram of the keyboard matrix show the top as the furthest side of the keyboard from you when in use; this can be seen by the cutout in the case for the nice!nano.
+
 ![Labelled pinout diagram for the nice!nano](./images/nice!nano_pinout.jpeg)
+
+Using more wire, solder connections between the pins of the nice!nano and the matching labels of the keyboard matrix.
+Any point along the columns will make a valid connection.
+Any point "below" the black line of the diode will make a valid connection for the rows.
 
 ![Labelled diagram showing which wires connect to which pins of the nice!nano](./images/lak_hand_wiring.jpeg)
 
