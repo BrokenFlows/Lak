@@ -137,6 +137,9 @@ Any point "below" the black line of the diode will make a valid connection for t
 Once all other wiring is done, the optional battery can be soldered to the nice!nano's B+/- pins.
 The black wire on the battery connects to the B- pin, the red wire to the B+ pin.
 
+Before sealing the case, take an opportunity to try flashing the nice!nano with [firmware](#Firmware) to validate the wiring.
+Once the case is sealed, it won't be desirable to revisit earlier steps.
+
 #### Fit and Finish
 With all wiring done, we can close up the case.
 
