@@ -155,5 +155,14 @@ Again, once you're happy with the fit, glue it in place.
 Finally, customise the keycaps to your liking and you're done with the physical aspect of this project. 
 
 #### Firmware
+
+Instructions on where to find the built keymap I use on Lak [can be found in my ZMK Config GitHub repository](https://github.com/BrokenFlows/zmk-brokenflows).
+You can always customise your own keymap and build your own firmware later, but using the prepared one will make validating your wiring faster.
+Instructions on how to go about making your own keymap for Lak can be found further down within this section.
+
+Once you have a built and ready .uf2 firmware file, follow the ["Flashing, Firmware, and Bootloaders" section of the nice!nano documentation](https://nicekeyboards.com/docs/nice-nano/getting-started/#flashing-firmware-and-bootloaders) to flash your keyboard.
+
+
+
 *TODO*
 
