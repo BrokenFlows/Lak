@@ -45,7 +45,7 @@ Item # | Quantity | Part Name                                                 | 
 5      | 40       | [MX-Style Keycaps](https://www.adafruit.com/product/5039) | MX-style keycaps, a uniform profile will work best
 6      | 40       | [Diodes](https://www.adafruit.com/product/1641)           | Diodes for creating the key matrix
 7      | 24       | [Wires](https://www.ebay.ie/itm/232901601951)             | Lengths of insulated solid-core wire to create the key matrix
-8      | 1        | [nice!nano](https://nicekeyboards.com/nice-nano)          | The nice!nano microcontroller will 
+8      | 1        | [nice!nano](https://nicekeyboards.com/nice-nano)          | The nice!nano microcontroller will serve as the brains of the project and connect to your computer
 9      | 1        | [301230 Lithium Polymer Battery](https://www.aliexpress.com/item/33001770863.html) | Optional: LiPo battery to enable wireless usage
 
 The above BoM lists uniform profile keycaps and links to relegendable keycaps. I used a mixture of both of the following in my build:
