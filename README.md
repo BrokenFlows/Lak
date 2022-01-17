@@ -153,7 +153,7 @@ In that repository, there are instructions on how to:
 - Flash the `.uf2` file
 - Create your own custom keymap
 
-Once you have verified your wiring feel free to make your own keymap with keyboard shortcuts or F-keys to trigger macros on your computer.
+Once you have verified your wiring, feel free to make your own keymap with keyboard shortcuts or F-keys to trigger macros on your computer.
 It's important to keep some combo of keys available for the bootloader binding.
 The bootloader combo will be your only way to re-flash the keyboard once you've sealed it and you cannot access the pins on your nice!nano.
 
@@ -170,6 +170,8 @@ Then, test the fit of the bottom plate of the case.
 Again, once you're happy with the fit, glue it in place.
 
 Finally, customise the keycaps to your liking.
+
+---
 
 You've just completed the build.
 Congrats!
