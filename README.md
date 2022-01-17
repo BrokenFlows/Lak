@@ -139,8 +139,8 @@ The black wire on the battery connects to the B- pin, the red wire to the B+ pin
 **IMPORTANT**
 Before [sealing the case](#Fit-and-Finish), we must flash the nice!nano with [firmware](#Firmware).
 This serves two purposes:
-- Without firmware running already we cannot re-flash the nice!nano without physical access to it.
-- We can validate the wiring now and make any necessary corrections while we still have easy access to it.
+- Unless the firmware is running on the nice!nano, we cannot re-flash the nice!nano without physical access to it
+- We can validate the wiring and make any necessary corrections while we still have easy access to the wires
 
 If there are any missing or mixed signals, revisit the earlier steps on how to wire the keyboard and double check your work against the instructions.
 Once the case is sealed, it won't be desirable to revisit earlier steps.
