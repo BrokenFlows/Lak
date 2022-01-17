@@ -63,7 +63,6 @@ Supports        | On
 #### Pre-Wiring
 1. Insert the 40 switches into the case — the top of the switches should be on the shorter side relative to the plate.
 2. At this point the keycaps can be placed on top of the switches. If using relegendable keycaps, insert the paper legends before placing the keycaps.
-3. Place the nice!nano in its sled housing.
 
 #### Wiring
 This guide will go into light detail about the specifics of hand-wiring this keyboard.
@@ -137,8 +136,26 @@ Any point "below" the black line of the diode will make a valid connection for t
 Once all other wiring is done, the optional battery can be soldered to the nice!nano's B+/- pins.
 The black wire on the battery connects to the B- pin, the red wire to the B+ pin.
 
-Before sealing the case, take an opportunity to try flashing the nice!nano with [firmware](#Firmware) to validate the wiring.
+**IMPORTANT**
+Before [sealing the case](#Fit-and-Finish), we must flash the nice!nano with [firmware](#Firmware).
+This serves two purposes:
+- Without firmware running already we cannot re-flash the nice!nano without physical access to it.
+- We can validate the wiring now and make any necessary corrections while we still have easy access to it.
+
+If there are any missing or mixed signals, revisit the earlier steps on how to wire the keyboard and double check your work against the instructions.
 Once the case is sealed, it won't be desirable to revisit earlier steps.
+
+#### Firmware
+
+You can find a ready-to-flash firmware file in the [`zmk-lak` GitHub repository](https://github.com/BrokenFlows/zmk-lak).
+
+In that repository, there are instructions on how to:
+- Flash the `.uf2` file
+- Create your own custom keymap
+
+Once you have verified your wiring feel free to make your own keymap with keyboard shortcuts or F-keys to trigger macros on your computer.
+It's important to keep some combo of keys available for the bootloader binding.
+The bootloader combo will be your only way to re-flash the keyboard once you've sealed it and you cannot access the pins on your nice!nano.
 
 #### Fit and Finish
 With all wiring done, we can close up the case.
@@ -152,17 +169,10 @@ If you are using a battery, you may want to find some space to secure that withi
 Then, test the fit of the bottom plate of the case.
 Again, once you're happy with the fit, glue it in place.
 
-Finally, customise the keycaps to your liking and you're done with the physical aspect of this project. 
+Finally, customise the keycaps to your liking.
 
-#### Firmware
-
-Instructions on where to find the built keymap I use on Lak can be found in my [ZMK Config GitHub repository](https://github.com/BrokenFlows/zmk-brokenflows).
-You can always customise your own keymap and build your own firmware later, but using the prepared one will make validating your wiring faster.
-Instructions on how to go about making your own keymap for Lak can be found further down within this section.
-
-Once you have a built and ready .uf2 firmware file, follow the ["Flashing, Firmware, and Bootloaders" section of the nice!nano documentation](https://nicekeyboards.com/docs/nice-nano/getting-started/#flashing-firmware-and-bootloaders) to flash your keyboard.
-
-
-
-*TODO*
+You've just completed the build.
+Congrats!
+I hope that you find it useful.
+You'll likely want to update the keymap over time, as your needs or preferences change, but for now you're ready to go!
 
