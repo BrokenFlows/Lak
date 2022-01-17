@@ -3,7 +3,7 @@ Lak is a 40-key macro ~~pad~~ board
 
 ![Lak Photo](images/lak.jpeg)
 
-I primarily type using a small, split, keyboard called as [Ishka](https://github.com/BrokenFlows/Ishka).
+I primarily type using a small, split, keyboard called [Ishka](https://github.com/BrokenFlows/Ishka).
 While very ergonomic, and designed specifically for my hands, it requires two hands to use effectively.
 So, I designed Lak for situations where I may have one hand on a mouse and still want to use some keyboard functions.
 
