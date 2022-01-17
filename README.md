@@ -1,12 +1,11 @@
 # Lak
+Lak is a 40-key macro ~~pad~~ board
 ![Lak Photo](images/lak.jpeg)
 
-Lak is a 40-key macro ~~pad~~ board
+The stl files in this repository, with the rest of the physical components outlined in the bill of materials, can be used to create a 40-key programmable macroboard.
 
-The stl files in this repo, with the rest of the physical components outlined in the bill of materials, can be used to create a 40-key programmable macroboard.
-
-Lak is a hand-wired keyboard project powered by a [nice!nano](https://nicekeyboards.com/nice-nano) V1 and [ZMK](https://zmk.dev).
-The shield config, keymap, and a prebuilt uf2 can be found [here](https://github.com/BrokenFlows/zmk-brokenflows).
+Lak is a hand-wired keyboard project powered by a [nice!nano](https://nicekeyboards.com/nice-nano) and [ZMK](https://zmk.dev).
+Instructions on where to find the shield config, keymap, and a prebuilt `.uf2` can be found in my [zmk-lak repo](https://github.com/BrokenFlows/zmk-lak).
 
 ## Instructions
 
@@ -147,9 +146,9 @@ Once the case is sealed, it won't be desirable to revisit earlier steps.
 
 #### Firmware
 
-You can find a ready-to-flash firmware file in the [`zmk-lak` GitHub repository](https://github.com/BrokenFlows/zmk-lak).
+You can find a ready-to-flash firmware file in the [`zmk-lak` GitHub repo](https://github.com/BrokenFlows/zmk-lak).
 
-In that repository, there are instructions on how to:
+In that repo, there are instructions on how to:
 - Flash the `.uf2` file
 - Create your own custom keymap
 
