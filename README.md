@@ -1,6 +1,11 @@
 # Lak
 Lak is a 40-key macro ~~pad~~ board
+
 ![Lak Photo](images/lak.jpeg)
+
+I primarily type using a small, split, keyboard called as [Ishka](https://github.com/BrokenFlows/Ishka).
+While very ergonomic, and designed specifically for my hands, it requires two hands to use effectively.
+So, I designed Lak for situations where I may have one hand on a mouse and still want to use some keyboard functions.
 
 The stl files in this repository, with the rest of the physical components outlined in the bill of materials, can be used to create a 40-key programmable macroboard.
 
