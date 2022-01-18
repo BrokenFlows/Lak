@@ -38,9 +38,9 @@ The [tools](#Tools) and [materials](#Bill-of-Materials) will be used to assemble
 #### Bill of Materials
 Item # | Quantity | Part Name                                                 | Description
 ------:|---------:|:----------------------------------------------------------|-------------
-1      | 1        | [lak case.stl](./stls/lak\ case.stl)                      | The case and integrated switch plate for the keyboard
-2      | 1        | [lak sled.stl](./stls/lak\ sled.stl)                      | The housing for the nice!nano at the back of the case
-3      | 1        | [lak base plate.stl](./stls/lak\ base\ plate.stl)         | The bottom cover for the keyboard, to protect the wiring once built
+1      | 1        | [lak case.stl](./stls/lak_case.stl)                       | The case and integrated switch plate for the keyboard
+2      | 1        | [lak sled.stl](./stls/lak_sled.stl)                       | The housing for the nice!nano at the back of the case
+3      | 1        | [lak base plate.stl](./stls/lak_base_plate.stl)           | The bottom cover for the keyboard, to protect the wiring once built
 4      | 40       | [MX-Style Switches](https://kbdfans.com/collections/gateron-swithes/products/gateron-swtich-3pin-or-5pin?variant=35765200333) | MX-style key switches will serve as the button mechanism
 5      | 40       | [MX-Style Keycaps](https://www.adafruit.com/product/5039) | MX-style keycaps, a uniform profile will work best
 6      | 40       | [Diodes](https://www.adafruit.com/product/1641)           | Diodes for creating the key matrix
